@@ -1,0 +1,28 @@
+{
+  "commands": [
+    {
+      "name": "open_browser",
+      "action": "script",
+      "aliases": [
+        "open browser",
+        "run chrome",
+        "open google"
+      ],
+      "params": {
+        "url": "https://www.google.com"
+      }
+    },
+    {
+      "name": "open_youtube",
+      "depends_on": "open_browser",
+      "action": "script",
+      "aliases": [
+        "open youtube",
+        "run youtube"
+      ],
+      "params": {
+        "url": "https://www.youtube.com"
+      }
+    }
+  ]
+}

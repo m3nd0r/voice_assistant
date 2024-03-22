@@ -1,0 +1,12 @@
+{
+  "commands": [
+    {
+      "name": "chat_gpt",
+      "action": "chat_gpt",
+      "aliases": [
+        "tell me",
+        "search in the internet"
+      ]
+    }
+  ]
+}

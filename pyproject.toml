@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "voice_assistant"
+version = "0.1.0"
+description = "Personal voice assistant"
+authors = ["Kirill Fedorov <k.a.fedorov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.14.2"
+silero = "^0.4.1"
+sounddevice = "^0.4.6"
+numpy = "^1.26.4"
+vosk = "0.3.42"
+fuzzywuzzy = "^0.18.0"
+num2t4ru = {git = "https://github.com/Yuego/num2t4ru.git", rev = "master"}
+num2words = "^0.5.13"
+python-levenshtein = "^0.25.0"
+python-dotenv = "^1.0.1"
+pvrecorder = "^1.2.2"
+pvporcupine = "^3.0.2"
+pre-commit = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

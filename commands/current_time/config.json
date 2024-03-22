@@ -1,0 +1,13 @@
+{
+  "commands": [
+    {
+      "name": "current_time",
+      "action": "script",
+      "aliases": [
+        "what time is it",
+        "what's the time",
+        "current time"
+      ]
+    }
+  ]
+}
